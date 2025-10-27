@@ -1,0 +1,157 @@
+site_name: Damian Kuś | Analiza Danych & AI
+site_description: Analizy danych, projekty AI i aplikacje stworzone podczas nauki Data Science.
+site_author: Damian
+site_url: https://twoja-strona.github.io  # (możesz dodać później)
+
+repo_url: https://github.com/TWOJ-USER/TWOJE-REPO   # 👈 podmień na swoje repo
+repo_name: GitHub
+edit_uri: edit/main/docs/ 
+
+# -------------------------------------
+# 🔹 Motyw i wygląd
+# -------------------------------------
+theme:
+  name: material
+  language: pl
+
+  # 🎨 Kolory: AI Tech Blue (jasny + ciemny) z przełącznikiem
+  palette:
+    - scheme: default           # jasny motyw
+      primary: blue             # kolor główny
+      accent: cyan              # akcent
+      toggle:
+        icon: material/weather-night
+        name: Przełącz na tryb ciemny
+    - scheme: slate             # ciemny motyw
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Przełącz na tryb jasny
+
+  # ✨ Przydatne funkcje Material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.action.view
+    - content.footer
+    - i18n 
+
+  # (opcjonalnie) fonty — możesz zostawić swoje
+  font:
+    text: "Roboto"
+    code: "JetBrains Mono"
+
+  icon:
+    logo: material/chart-line
+    repo: fontawesome/brands/github
+    translate: 🌍
+
+# -------------------------------------
+# 🔹 Pliki źródłowe
+# -------------------------------------
+docs_dir: docs
+site_dir: site
+
+# -------------------------------------
+# 🔹 Nawigacja (tylko PL – domyślny język)
+# -------------------------------------
+nav:
+  - 🏠 Start: pl/index.md
+  - 📊 Analizy:
+      - Irysy EDA: pl/analizy/irysy/index.md
+      - Titanic EDA: pl/analizy/titanic/index.md
+  - 💻 Aplikacje:
+      - Language Helper: pl/aplikacje/language_helper/index.md
+      - Półmaraton: pl/aplikacje/półmaraton/index.md
+  - 👨‍💻 O mnie: pl/about.md
+
+
+
+# -------------------------------------
+# 🔹 Rozszerzenia Markdown
+# -------------------------------------
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+# -------------------------------------
+# 🔹 Wtyczki
+# -------------------------------------
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute: false
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: pl
+          name: "Polski 🇵🇱"
+          default: true
+          build: true
+          nav:
+            - 🏠 Start: pl/index.md
+            - 📊 Analizy:
+                - Irysy EDA: pl/analizy/irysy/index.md
+                - Titanic EDA: pl/analizy/titanic/index.md
+            - 💻 Aplikacje:
+                - Language Helper: pl/aplikacje/language_helper/index.md
+                - Półmaraton: pl/aplikacje/półmaraton/index.md
+            - 👨‍💻 O mnie: pl/about.md
+
+        - locale: en
+          name: "English 🇬🇧"
+          build: true
+          nav:
+            - 🏠 Home: en/index.md
+            - 📊 Analyses:
+                - Iris EDA: en/analyses/iris/index.md
+                - Titanic EDA: en/analyses/titanic/index.md
+            - 💻 Apps:
+                - Language Helper: en/apps/language_helper/index.md
+                - Half Marathon: en/apps/half_marathon/index.md
+            - 👨‍💻 About Me: en/about.md
+
+
+
+# -------------------------------------
+# 🔹 Dodatkowe zasoby (style / skrypty)
+# -------------------------------------
+extra_css:
+  - assets/styles/extra.css
+
+# -------------------------------------
+# 🔹 Ikony społecznościowe i miniaturka podglądu
+# -------------------------------------
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/damiandatax         # 👈 Twój GitHub
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/damian-ku%C5%9B-7a1851230/  # 👈 Twój LinkedIn
+      name: LinkedIn
+  social_image: assets/images/preview.png 
+
+extra_javascript:
+  - assets/js/reveal.js
+  - assets/js/hide-language.js?v=3
+  - assets/js/lang-switch.js?v=4
