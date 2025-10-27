@@ -1,9 +1,9 @@
 site_name: Damian Kuś | Analiza Danych & AI
 site_description: Analizy danych, projekty AI i aplikacje stworzone podczas nauki Data Science.
 site_author: Damian
-site_url: https://twoja-strona.github.io  # (możesz dodać później)
+site_url: https://damian-kus.github.io/ds_ai_portfolio  # (możesz dodać później)
 
-repo_url: https://github.com/TWOJ-USER/TWOJE-REPO   # 👈 podmień na swoje repo
+repo_url: https://github.com/damiandatax/ds_ai_portfolio  # 👈 podmień na swoje repo
 repo_name: GitHub
 edit_uri: edit/main/docs/ 
 
