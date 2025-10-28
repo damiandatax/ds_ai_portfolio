@@ -58,8 +58,7 @@ Includes flashcards, ABCD exercises, writing mode, pronunciation (gTTS), and pro
 > A Streamlit app using machine learning to predict half-marathon finishing time  
 based on age, gender, and 5K pace. Combines data analysis, ML modeling,  
 and natural language input interpretation with LLM (GPT-4o mini).
-
-🔗 [Open app](https://halfmarathon-damiandatax.streamlit.app)  
+ 
 💻 [Repository](https://github.com/damiandatax/halfmarathon-app)
 
 ---
