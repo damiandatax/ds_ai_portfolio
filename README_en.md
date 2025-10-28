@@ -122,11 +122,9 @@ MkDocs automatically creates a gh-pages branch containing the built site.
 
 **📬 Contact**
 
-📧 damian.kus.98@gmail.com
-
-💼 LinkedIn
-
-🐙 GitHub
+- 📧 damian.kus.98@gmail.com
+- 💼 LinkedIn: [Damian Kuś](https://www.linkedin.com/in/damian-ku%C5%9B-7a1851230/)
+- 🐙 GitHub: [@damiandatax](https://github.com/damiandatax)
 
 ---
 
