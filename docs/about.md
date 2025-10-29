@@ -4,7 +4,7 @@ description: O mnie — Damian Kuś | Analiza Danych & AI
 ---
 
 <div class="hero-wrap" style="margin-top:6px;">
-  <img src="/assets/images/profile.jpg" alt="Damian Kuś" width="140" class="hero-photo" />
+  <img src="../assets/images/profile.jpg" alt="Damian Kuś" width="140" class="hero-photo" />
   <div class="hero-text">
     <h1 style="margin:0;">👋 Cześć, jestem <strong>Damian Kuś</strong></h1>
     <p style="margin:.25rem 0 0 0;"><strong>Data Science | Analiza Danych | AI & Machine Learning</strong></p>
@@ -106,7 +106,5 @@ Szukam miejsca, w którym połączę **analitykę, technologię i realny wpływ 
 ## Kontakt
 
 - 📧 **E-mail:** [damian.kus.98@gmail.com](mailto:damian.kus.98@gmail.com)  
-- 💼 **LinkedIn:** [profil](https://www.linkedin.com/in/damian-ku%C5%9B-7a1851230/)  
-- 🐙 **GitHub:** [damiandatax](https://github.com/damiandatax)
-
- 
+- 💼 **LinkedIn:** [Link do profilu](https://www.linkedin.com/in/damian-ku%C5%9B-7a1851230/)  
+- 🐙 **GitHub:** [Link do GitHub](https://github.com/damiandatax)

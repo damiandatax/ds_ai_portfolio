@@ -4,7 +4,7 @@ description: About Me — Damian Kuś | Data Analysis & AI
 ---
 
 <div class="hero-wrap" style="margin-top:6px;">
-  <img src="/assets/images/profile.jpg" alt="Damian Kuś" width="140" class="hero-photo" />
+  <img src="../../assets/images/profile.jpg" alt="Damian Kuś" width="140" class="hero-photo" />
   <div class="hero-text">
     <h1 style="margin:0;">👋 Hi, I'm <strong>Damian Kuś</strong></h1>
     <p style="margin:.25rem 0 0 0;"><strong>Data Science | Data Analysis | AI & Machine Learning</strong></p>
@@ -106,5 +106,5 @@ I’m looking for an environment where I can combine **analytics, technology, an
 ## Contact
 
 - 📧 **Email:** [damian.kus.98@gmail.com](mailto:damian.kus.98@gmail.com)  
-- 💼 **LinkedIn:** [profile](https://www.linkedin.com/in/damian-ku%C5%9B-7a1851230/)  
-- 🐙 **GitHub:** [damiandatax](https://github.com/damiandatax)
+- 💼 **LinkedIn:** [Link to profile](https://www.linkedin.com/in/damian-ku%C5%9B-7a1851230/)  
+- 🐙 **GitHub:** [Link to GitHub](https://github.com/damiandatax)

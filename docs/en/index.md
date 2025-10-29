@@ -12,7 +12,7 @@ title: Damian Kuś | Analiza Danych & AI
 ">
 
   <!-- Photo on the left -->
-  <img src="/assets/images/profile.jpg" 
+  <img src="../assets/images/profile.jpg" 
        alt="Damian Kuś" 
        width="200" 
        class="hero-photo fade-in delay-1"
@@ -92,19 +92,19 @@ I’m looking for a career path that combines **growth, innovation, and strong l
 <div class="grid cards reveal" markdown>
 -   🌷 **Iris (EDA)**  
     Classical dataset exploration for flower classification.  
-    [👀 View](../analyses/iris/index.md)
+    [👀 View](../en/analyses/iris/)
 
 -   🚢 **Titanic (EDA)**  
     Analysis of survival factors among Titanic passengers.  
-    [👀 View](../analyses/titanic/index.md)
+    [👀 View](../en/analyses/titanic/)
 
 -   🗣️ **Language Helper (Streamlit)**  
     An app supporting English vocabulary and phrase learning.  
-    [👀 View](../apps/language_helper/index.md)
+    [👀 View](../en/apps/language_helper/)
 
 -   🏃‍♂️ **Half Marathon (Streamlit)**  
     App for estimating half-marathon finish time.  
-    [👀 View](../apps/half_marathon/index.md)
+    [👀 View](../en/apps/half_marathon/)
 </div>
 
 ---

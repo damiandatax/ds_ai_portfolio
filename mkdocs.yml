@@ -62,16 +62,14 @@ site_dir: site
 # 🔹 Nawigacja (tylko PL – domyślny język)
 # -------------------------------------
 nav:
-  - 🏠 Start: pl/index.md
+  - 🏠 Start: index.md
   - 📊 Analizy:
-      - Irysy EDA: pl/analizy/irysy/index.md
-      - Titanic EDA: pl/analizy/titanic/index.md
+      - Irysy EDA: analizy/irysy/index.md
+      - Titanic EDA: analizy/titanic/index.md
   - 💻 Aplikacje:
-      - Language Helper: pl/aplikacje/language_helper/index.md
-      - Półmaraton: pl/aplikacje/półmaraton/index.md
-  - 👨‍💻 O mnie: pl/about.md
-
-
+      - Language Helper: aplikacje/language_helper/index.md
+      - Półmaraton: aplikacje/półmaraton/index.md
+  - 👨‍💻 O mnie: about.md
 
 # -------------------------------------
 # 🔹 Rozszerzenia Markdown
@@ -101,22 +99,14 @@ plugins:
   - mkdocs-jupyter:
       execute: false
   - i18n:
-      docs_structure: folder
+      docs_structure: folder        # domyślny język w root, inne w podfolderach
       languages:
         - locale: pl
           name: "Polski 🇵🇱"
           default: true
           build: true
-          nav:
-            - 🏠 Start: pl/index.md
-            - 📊 Analizy:
-                - Irysy EDA: pl/analizy/irysy/index.md
-                - Titanic EDA: pl/analizy/titanic/index.md
-            - 💻 Aplikacje:
-                - Language Helper: pl/aplikacje/language_helper/index.md
-                - Półmaraton: pl/aplikacje/półmaraton/index.md
-            - 👨‍💻 O mnie: pl/about.md
-
+          # Uwaga: dla default language używamy globalnej `nav` powyżej,
+          # więc tutaj nie ustawiamy `nav`.
         - locale: en
           name: "English 🇬🇧"
           build: true
@@ -129,8 +119,6 @@ plugins:
                 - Language Helper: en/apps/language_helper/index.md
                 - Half Marathon: en/apps/half_marathon/index.md
             - 👨‍💻 About Me: en/about.md
-
-
 
 # -------------------------------------
 # 🔹 Dodatkowe zasoby (style / skrypty)
@@ -154,4 +142,4 @@ extra:
 extra_javascript:
   - assets/js/reveal.js
   - assets/js/hide-language.js?v=3
-  - assets/js/lang-switch.js?v=4
+  - assets/js/lang-switch-dom.js?v=6

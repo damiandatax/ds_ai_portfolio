@@ -250,10 +250,9 @@ button.md-header__button[aria-label="Wybierz język"] {
 /* 🌍 Styl dla własnego przełącznika języka (PL | EN) */
 .lang-switch {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #fff;
-  margin-left: auto;
-  margin-right: 1rem;
+  margin-left: 1.2rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -261,23 +260,23 @@ button.md-header__button[aria-label="Wybierz język"] {
   user-select: none;
 }
 
-.lang-switch span {
-  transition: color 0.3s ease;
+.lang-switch a {
+  color: #ffffffcc;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
-.lang-switch span:hover {
-  color: var(--accent-color);
-  text-shadow: 0 0 6px rgba(1, 6, 7, 0);
+.lang-switch a:hover {
+  color: #00e5ff;
+  text-shadow: 0 0 6px rgba(0, 229, 255, 0.6);
 }
 
-/* .lang-switch .active {
-  color: var(--accent-color);
-  font-weight: 700;
-} */
 .lang-switch .active {
-  color: #ffd166;      /* np. ciepły żółty */
+  color: #00e5ff;
   font-weight: 700;
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.8);
 }
+
 /* 🚫 Ukryj wbudowany przełącznik języka z motywu (pozostaw tylko nasz PL | EN) */
 .md-header__select,
 [data-md-component="languages"],
@@ -418,42 +417,44 @@ span.header-lang-switch,
 .header-lang-switch { display: none !important; }
 .md-header__option:empty { display: none !important; }
 
-/* wygląd naszego PL | EN */
-.lang-switch { font-weight:700; color:#fff; margin:0 .75rem 0 auto; }
-.lang-switch .active { color: var(--accent-color); }
-.lang-switch a { color:#fff; text-decoration:none; }
-.lang-switch a:hover { color: var(--accent-color); }
 
-/* --- WYGLĄD PRZEŁĄCZNIKA JĘZYKÓW --- */
+/* Przełącznik języka obok palette */
 .lang-switch {
-  font-weight: 600;
-  margin: 0 .75rem 0 auto;
   display: flex;
   align-items: center;
-  gap: .25rem;
-}
-
-.lang-switch span {
-  padding: 3px 8px;
-  border-radius: 6px;
-  transition: all 0.2s ease-in-out;
-}
-
-/* Aktywny język – wyraźne tło i kontrastowy tekst */
-.lang-switch .active {
-  background: var(--md-accent-fg-color, #00bcd4); /* kolor akcentu motywu */
-  color: #fff;
+  gap: 6px;
+  margin-left: 10px;     /* odstęp od ikony motywu */
   font-weight: 700;
-  box-shadow: 0 0 6px rgba(0,0,0,0.3);
-}
-
-/* Nieaktywny język – subtelny hover */
-.lang-switch span:not(.active):hover a {
-  color: var(--md-accent-fg-color, #00bcd4);
-  text-decoration: underline;
+  font-size: 1.05rem;
+  color: #fff;
 }
 
 .lang-switch a {
   color: inherit;
   text-decoration: none;
+  transition: opacity .2s ease, text-shadow .2s ease;
+}
+
+.lang-switch a:hover {
+  opacity: .9;
+  text-shadow: 0 0 8px rgba(0,188,212,.35);
+}
+
+.lang-switch .sep { opacity: .6; }
+
+/* === Aktywny język – mocne podświetlenie === */
+.lang-switch a strong {
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, rgba(247, 248, 249, 0.497), rgba(241, 243, 243, 0.35));
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0,188,212,0.6), 0 0 20px rgba(0,188,212,0.3);
+  text-shadow: 0 0 6px rgba(0,0,0,0.3);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Delikatny efekt przy hoverze na nieaktywnym */
+.lang-switch a:hover strong {
+  background: linear-gradient(135deg, rgba(0,188,212,1), rgba(0,188,212,0.6));
 }

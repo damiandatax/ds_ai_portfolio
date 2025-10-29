@@ -79,4 +79,4 @@ Użytkownik → [Interfejs Streamlit]
 ---
 **📊 Podgląd aplikacji**
 
-<div align="center"> <table> <tr> <td align="center" width="50%"> <img src="/assets/images/screan_halfmarathon.png" alt="Ekran główny aplikacji – dane i predykcja" width="100%"><br> <em>Ekran główny aplikacji – wprowadzanie danych i wynik predykcji</em> </td> <td align="center" width="50%"> <img src="/assets/images/screan_halfmarathon_1.png" alt="Wykres i rozkład wyników" width="100%"><br> <em>Wizualizacja rozkładu czasów i pozycji w klasyfikacji</em> </td> </tr> </table> </div>
+<div align="center"> <table> <tr> <td align="center" width="50%"> <img src="../../assets/images/screan_halfmarathon.png" alt="Ekran główny aplikacji – dane i predykcja" width="100%"><br> <em>Ekran główny aplikacji – wprowadzanie danych i wynik predykcji</em> </td> <td align="center" width="50%"> <img src="../../assets/images/screan_halfmarathon_1.png" alt="Wykres i rozkład wyników" width="100%"><br> <em>Wizualizacja rozkładu czasów i pozycji w klasyfikacji</em> </td> </tr> </table> </div>

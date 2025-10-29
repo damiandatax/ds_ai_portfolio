@@ -77,5 +77,24 @@ User → [Streamlit Interface]
 
 ---
 **📊 Preview**
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="./screan_halfmarathon.png"
+             alt="Main application screen – input and prediction"
+             width="100%">
+        <br>
+        <em>Example of predicted result and pacing plan</em>
+      </td>
+      <td align="center" width="50%">
+        <img src="./screan_halfmarathon_1.png"
+             alt="Charts and result distribution"
+             width="100%">
+        <br>
+        <em>Distribution chart and ranking comparison</em>
+      </td>
+    </tr>
+  </table>
+</div>
 
-<div align="center"> <table> <tr> <td align="center" width="50%"> <img src="/assets/images/screan_halfmarathon.png" alt="Ekran główny aplikacji – dane i predykcja" width="100%"><br> <em>Example of predicted result and pacing plan</em> </td> <td align="center" width="50%"> <img src="/assets/images/screan_halfmarathon_1.png" alt="Wykres i rozkład wyników" width="100%"><br> <em>Distribution chart and ranking comparison</em> </td> </tr> </table> </div>

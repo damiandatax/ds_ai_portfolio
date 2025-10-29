@@ -33,10 +33,6 @@
 
 ---
 
-
-
----
-
 ## 🚀 O mnie { .reveal }
 
 Mam wykształcenie inżynierskie i magisterskie z **transportu**, ale postanowiłem się przebranżowić.  
@@ -92,19 +88,19 @@ Szukam ścieżki zawodowej, która łączy **rozwój, innowacje i dobrą perspek
 <div class="grid cards reveal" markdown>
 -   🌷 **Irysy (EDA)**  
     Klasyczna analiza danych — eksploracja zbioru Iris.  
-    [👀 Zobacz](analizy/irysy/index.md)
+    [👀 Zobacz](analizy/irysy/)
 
 -   🚢 **Titanic (EDA)**  
     Analiza czynników wpływających na przeżycie pasażerów.  
-    [👀 Zobacz](analizy/titanic/index.md)
+    [👀 Zobacz](analizy/titanic/)
 
 -   🗣️ **Pomocnik do nauki angielskiego (Streamlit)**  
     Aplikacja wspierająca naukę słówek i zwrotów.  
-    [👀 Zobacz](aplikacje/language_helper/index.md)
+    [👀 Zobacz](aplikacje/language_helper/)
 
 -   🏃‍♂️ **Półmaraton (Streamlit)**  
     Aplikacja do szacowania czasu półmaratonu.  
-    [👀 Zobacz](aplikacje/półmaraton/index.md)
+    [👀 Zobacz](aplikacje/półmaraton/)
 </div>
 
 ---
