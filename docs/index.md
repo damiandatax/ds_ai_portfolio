@@ -108,5 +108,5 @@ Szukam ścieżki zawodowej, która łączy **rozwój, innowacje i dobrą perspek
 ## 📬 Kontakt { .reveal }
 
 📧 **Email:** [damian.kus.98@gmail.com](mailto:damian.kus.98@gmail.com)  
-💼 **LinkedIn:** [linkedin.com/in/damian-kuś-7a1851230](https://www.linkedin.com/in/damian-ku%C5%9B-7a1851230/)  
-🐙 **GitHub:** [github.com/damiandatax](https://github.com/damiandatax)
+💼 **LinkedIn:** [Link do profilu](https://www.linkedin.com/in/damian-ku%C5%9B-7a1851230/)  
+🐙 **GitHub:** [Link do GitHub](https://github.com/damiandatax)

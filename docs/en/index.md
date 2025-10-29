@@ -112,5 +112,5 @@ I’m looking for a career path that combines **growth, innovation, and strong l
 ## 📬 Contact { .reveal }
 
 📧 **Email:** [damian.kus.98@gmail.com](mailto:damian.kus.98@gmail.com)  
-💼 **LinkedIn:** [linkedin.com/in/damian-kuś-7a1851230](https://www.linkedin.com/in/damian-ku%C5%9B-7a1851230/)  
-🐙 **GitHub:** [github.com/damiandatax](https://github.com/damiandatax)
+💼 **LinkedIn:** [Link to profile](https://www.linkedin.com/in/damian-ku%C5%9B-7a1851230/)  
+🐙 **GitHub:** [Link to GitHub](https://github.com/damiandatax)
